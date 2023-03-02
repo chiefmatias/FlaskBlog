@@ -11,10 +11,14 @@ FlaskBlog is a full-featured blog web application built using Flask framework. I
 
 ## Installation
 1. Clone this repository to your local machine
-`git clone https://github.com/chiefmatias/FlaskBlog.git`
+```
+git clone https://github.com/chiefmatias/FlaskBlog.git
+```
 
 2. Change directory into the project root
-`cd FlaskBlog`
+```
+cd FlaskBlog
+```
 
 3. Create a virtual environment and activate it
 ```
@@ -23,8 +27,9 @@ source env/bin/activate
 ```
 
 4. Install the required dependencies
-`pip install -r requirements.txt`
-
+```
+pip install -r requirements.txt
+```
 5. Initialize the database and run the Flask application
 ```
 flask db init
