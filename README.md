@@ -11,28 +11,32 @@ FlaskBlog is a full-featured blog web application built using Flask framework. I
 
 ## Installation
 1. Clone this repository to your local machine
-```git clone https://github.com/chiefmatias/FlaskBlog.git```
+`git clone https://github.com/chiefmatias/FlaskBlog.git`
 
 2. Change directory into the project root
-```cd FlaskBlog```
+`cd FlaskBlog`
 
 3. Create a virtual environment and activate it
-```python3 -m venv env
-source env/bin/activate```
+```
+python3 -m venv env
+source env/bin/activate
+```
 
 4. Install the required dependencies
-```pip install -r requirements.txt```
+`pip install -r requirements.txt`
 
 5. Initialize the database and run the Flask application
-```flask db init
+```
+flask db init
 flask db migrate
 flask db upgrade
-flask run```
+flask run
+```
 
-##Configuration
+## Configuration
 FlaskBlog comes with a config.py file that contains configuration settings for the application. You can modify these settings to suit your needs. For example, you can change the name of the database, the secret key used for encrypting session cookies, and the number of blog posts to display per page.
 
-##Usage
+## Usage
 Once you have installed and configured FlaskBlog, you can access the web application by visiting http://localhost:5000 in your web browser. From there, you can register a new user account, create blog posts, and interact with other users by commenting on their blog posts.
 
 
