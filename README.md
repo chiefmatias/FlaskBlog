@@ -2,12 +2,12 @@
 FlaskBlog is a full-featured blog web application built using Flask framework. It allows users to read, write, and comment on blog posts, as well as manage their own user profiles.
 
 ## Features
-*User authentication (register, login, logout)
-*User profile management (change username, email, password, profile picture)
-*Blog post creation, modification, and deletion
-*Pagination of blog posts and comments
-*Search functionality to search for blog posts by title or content
-*Responsive design for optimal viewing on different devices
+* User authentication (register, login, logout)
+* User profile management (change username, email, password, profile picture)
+* Blog post creation, modification, and deletion
+* Pagination of blog posts and comments
+* Search functionality to search for blog posts by title or content
+* Responsive design for optimal viewing on different devices
 
 ## Installation
 1. Clone this repository to your local machine
